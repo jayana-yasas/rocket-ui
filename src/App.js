@@ -13,6 +13,7 @@ const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
 // Pages
 const Login = React.lazy(() => import('./components/login/Login'));
 
+
 const App = () => {
   return (
     <Router> 
