@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 // const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 // const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
@@ -52,7 +52,7 @@ import React from 'react'
 // const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 const routes = [
-  { path: '/', exact: true, name: 'Home' },
+  { path: "/", exact: true, name: "Home" },
   // { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   // { path: '/theme', name: 'Theme', element: Colors, exact: true },
   // { path: '/theme/colors', name: 'Colors', element: Colors },
@@ -97,6 +97,6 @@ const routes = [
   // { path: '/notifications/modals', name: 'Modals', element: Modals },
   // { path: '/notifications/toasts', name: 'Toasts', element: Toasts },
   // { path: '/widgets', name: 'Widgets', element: Widgets },
-]
+];
 
-export default routes
+export default routes;
